@@ -1,0 +1,1010 @@
+2020-12-13 08:08:33,995 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:08:35,553 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-12-13 08:08:35,561 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2020-12-13 08:08:35,563 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 29dbe82f1ecfd8384b89f1a32e5e2d9e5dfd7724]
+2020-12-13 08:08:35,951 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:1
+2020-12-13 08:08:36,047 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0001
+2020-12-13 08:08:36,339 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0001
+2020-12-13 08:08:36,393 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0001/
+2020-12-13 08:08:36,394 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0001
+2020-12-13 08:08:44,500 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0001 running in uber mode : false
+2020-12-13 08:08:44,501 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:08:51,553 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-12-13 08:08:58,579 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 8%
+2020-12-13 08:09:00,587 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 46%
+2020-12-13 08:09:01,591 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:09:02,599 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0001 completed successfully
+2020-12-13 08:09:02,697 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=312946
+		FILE: Number of bytes written=2987734
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=125
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=1
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=737062
+		S3: Number of bytes written=586184
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=1
+		Launched reduce tasks=13
+		Data-local map tasks=1
+		Total time spent by all maps in occupied slots (ms)=431136
+		Total time spent by all reduces in occupied slots (ms)=15886272
+		Total time spent by all map tasks (ms)=4491
+		Total time spent by all reduce tasks (ms)=82741
+		Total vcore-milliseconds taken by all map tasks=4491
+		Total vcore-milliseconds taken by all reduce tasks=82741
+		Total megabyte-milliseconds taken by all map tasks=13796352
+		Total megabyte-milliseconds taken by all reduce tasks=508360704
+	Map-Reduce Framework
+		Map input records=48141
+		Map output records=48141
+		Map output bytes=743153
+		Map output materialized bytes=312894
+		Input split bytes=125
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=126
+		Reduce shuffle bytes=312894
+		Reduce input records=48141
+		Reduce output records=126
+		Spilled Records=96282
+		Shuffled Maps =13
+		Failed Shuffles=0
+		Merged Map outputs=13
+		GC time elapsed (ms)=2593
+		CPU time spent (ms)=16660
+		Physical memory (bytes) snapshot=6169227264
+		Virtual memory (bytes) snapshot=99836014592
+		Total committed heap usage (bytes)=6207045632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=737062
+	File Output Format Counters 
+		Bytes Written=586184
+2020-12-13 08:09:02,752 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:09:02,951 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 13
+2020-12-13 08:09:02,979 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00000' for reading
+2020-12-13 08:09:03,053 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00001' for reading
+2020-12-13 08:09:03,115 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00002' for reading
+2020-12-13 08:09:03,175 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00003' for reading
+2020-12-13 08:09:03,254 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00004' for reading
+2020-12-13 08:09:03,310 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00005' for reading
+2020-12-13 08:09:03,375 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00006' for reading
+2020-12-13 08:09:03,443 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00007' for reading
+2020-12-13 08:09:03,500 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00008' for reading
+2020-12-13 08:09:03,539 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00009' for reading
+2020-12-13 08:09:03,575 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00010' for reading
+2020-12-13 08:09:03,630 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00011' for reading
+2020-12-13 08:09:03,705 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder0/part-r-00012' for reading
+2020-12-13 08:09:03,771 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:126
+2020-12-13 08:09:03,821 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0002
+2020-12-13 08:09:04,050 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0002
+2020-12-13 08:09:04,053 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0002/
+2020-12-13 08:09:04,053 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0002
+2020-12-13 08:09:11,110 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0002 running in uber mode : false
+2020-12-13 08:09:11,110 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:09:21,158 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2020-12-13 08:09:27,183 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2020-12-13 08:09:28,187 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2020-12-13 08:09:29,197 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2020-12-13 08:09:31,206 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2020-12-13 08:09:35,224 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2020-12-13 08:09:37,231 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2020-12-13 08:09:38,236 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2020-12-13 08:09:39,239 INFO org.apache.hadoop.mapreduce.Job (main):  map 33% reduce 0%
+2020-12-13 08:09:45,255 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-12-13 08:09:46,259 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-12-13 08:09:47,262 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2020-12-13 08:09:49,269 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 1%
+2020-12-13 08:09:50,273 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 1%
+2020-12-13 08:09:53,281 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 2%
+2020-12-13 08:09:56,289 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 4%
+2020-12-13 08:09:58,294 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 4%
+2020-12-13 08:10:00,299 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 4%
+2020-12-13 08:10:01,302 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 4%
+2020-12-13 08:10:02,305 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 4%
+2020-12-13 08:10:03,308 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 5%
+2020-12-13 08:10:05,313 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 6%
+2020-12-13 08:10:07,318 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 6%
+2020-12-13 08:10:08,321 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 8%
+2020-12-13 08:10:11,328 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 8%
+2020-12-13 08:10:12,335 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 8%
+2020-12-13 08:10:13,338 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 8%
+2020-12-13 08:10:14,341 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 8%
+2020-12-13 08:10:15,344 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 10%
+2020-12-13 08:10:18,351 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2020-12-13 08:10:20,355 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 11%
+2020-12-13 08:10:21,358 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 11%
+2020-12-13 08:10:23,362 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 11%
+2020-12-13 08:10:24,365 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 11%
+2020-12-13 08:10:25,367 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 11%
+2020-12-13 08:10:26,370 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 11%
+2020-12-13 08:10:27,373 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 12%
+2020-12-13 08:10:28,375 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 12%
+2020-12-13 08:10:31,382 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 12%
+2020-12-13 08:10:33,387 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 13%
+2020-12-13 08:10:34,391 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 13%
+2020-12-13 08:10:35,394 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 13%
+2020-12-13 08:10:36,396 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 13%
+2020-12-13 08:10:37,398 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 13%
+2020-12-13 08:10:38,401 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 13%
+2020-12-13 08:10:39,403 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 14%
+2020-12-13 08:10:42,411 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 14%
+2020-12-13 08:10:43,413 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 14%
+2020-12-13 08:10:44,415 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 15%
+2020-12-13 08:10:45,418 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 15%
+2020-12-13 08:10:46,420 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2020-12-13 08:10:47,423 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 17%
+2020-12-13 08:10:49,428 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 19%
+2020-12-13 08:10:50,430 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 31%
+2020-12-13 08:10:51,432 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 34%
+2020-12-13 08:10:54,440 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 46%
+2020-12-13 08:10:55,442 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 48%
+2020-12-13 08:10:56,445 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 57%
+2020-12-13 08:10:57,447 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 72%
+2020-12-13 08:10:58,450 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 80%
+2020-12-13 08:10:59,452 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 81%
+2020-12-13 08:11:01,456 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 90%
+2020-12-13 08:11:02,458 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 97%
+2020-12-13 08:11:03,461 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 99%
+2020-12-13 08:11:05,465 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:11:05,469 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0002 completed successfully
+2020-12-13 08:11:05,493 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 56
+	File System Counters
+		FILE: Number of bytes read=1268125740
+		FILE: Number of bytes written=1999623996
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=14238
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=126
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1633761
+		S3: Number of bytes written=46412
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=126
+		Launched reduce tasks=14
+		Other local map tasks=126
+		Total time spent by all maps in occupied slots (ms)=136960224
+		Total time spent by all reduces in occupied slots (ms)=105480192
+		Total time spent by all map tasks (ms)=1426669
+		Total time spent by all reduce tasks (ms)=549376
+		Total vcore-milliseconds taken by all map tasks=1426669
+		Total vcore-milliseconds taken by all reduce tasks=549376
+		Total megabyte-milliseconds taken by all map tasks=4382727168
+		Total megabyte-milliseconds taken by all reduce tasks=3375366144
+	Map-Reduce Framework
+		Map input records=126
+		Map output records=100185943
+		Map output bytes=2617011124
+		Map output materialized bytes=718428910
+		Input split bytes=14238
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=142
+		Reduce shuffle bytes=718428910
+		Reduce input records=100185943
+		Reduce output records=142
+		Spilled Records=278340407
+		Shuffled Maps =1638
+		Failed Shuffles=0
+		Merged Map outputs=1638
+		GC time elapsed (ms)=46712
+		CPU time spent (ms)=517500
+		Physical memory (bytes) snapshot=99904073728
+		Virtual memory (bytes) snapshot=678827167744
+		Total committed heap usage (bytes)=99462152192
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	allpairshortestpath.AllPairShortestPathRunner$AllPairCounter
+		ITERATION=47455
+	File Input Format Counters 
+		Bytes Read=1633761
+	File Output Format Counters 
+		Bytes Written=46412
+2020-12-13 08:11:05,496 INFO allpairshortestpath.AllPairShortestPathRunner (main): iterCount 47455
+2020-12-13 08:11:05,499 INFO allpairshortestpath.AllPairShortestPathRunner (main): Iteration: 1
+2020-12-13 08:11:05,499 INFO allpairshortestpath.AllPairShortestPathRunner (main): ------------------------------------------------------------------------------------------
+2020-12-13 08:11:05,541 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:11:05,772 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 13
+2020-12-13 08:11:05,789 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00000' for reading
+2020-12-13 08:11:05,857 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00001' for reading
+2020-12-13 08:11:05,926 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00002' for reading
+2020-12-13 08:11:06,090 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00003' for reading
+2020-12-13 08:11:06,170 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00004' for reading
+2020-12-13 08:11:06,255 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00005' for reading
+2020-12-13 08:11:06,382 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00006' for reading
+2020-12-13 08:11:06,469 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00007' for reading
+2020-12-13 08:11:06,518 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00008' for reading
+2020-12-13 08:11:06,582 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00009' for reading
+2020-12-13 08:11:06,719 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00010' for reading
+2020-12-13 08:11:06,844 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00011' for reading
+2020-12-13 08:11:07,053 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder1/part-r-00012' for reading
+2020-12-13 08:11:07,144 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:142
+2020-12-13 08:11:07,163 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0003
+2020-12-13 08:11:07,173 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0003
+2020-12-13 08:11:07,181 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0003/
+2020-12-13 08:11:07,182 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0003
+2020-12-13 08:11:14,235 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0003 running in uber mode : false
+2020-12-13 08:11:14,236 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:11:22,273 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2020-12-13 08:11:24,280 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2020-12-13 08:11:25,284 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2020-12-13 08:11:26,288 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2020-12-13 08:11:27,292 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2020-12-13 08:11:28,295 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2020-12-13 08:11:29,299 INFO org.apache.hadoop.mapreduce.Job (main):  map 16% reduce 0%
+2020-12-13 08:11:30,306 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2020-12-13 08:11:35,322 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2020-12-13 08:11:36,326 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2020-12-13 08:11:37,329 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2020-12-13 08:11:38,332 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2020-12-13 08:11:39,335 INFO org.apache.hadoop.mapreduce.Job (main):  map 29% reduce 0%
+2020-12-13 08:11:40,343 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2020-12-13 08:11:41,346 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-12-13 08:11:42,349 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2020-12-13 08:11:45,356 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 1%
+2020-12-13 08:11:48,364 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 1%
+2020-12-13 08:11:49,367 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 1%
+2020-12-13 08:11:50,370 INFO org.apache.hadoop.mapreduce.Job (main):  map 41% reduce 1%
+2020-12-13 08:11:51,373 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 2%
+2020-12-13 08:11:52,375 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 3%
+2020-12-13 08:11:53,378 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 3%
+2020-12-13 08:11:54,381 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 3%
+2020-12-13 08:11:56,386 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 3%
+2020-12-13 08:11:57,388 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 4%
+2020-12-13 08:12:00,395 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 5%
+2020-12-13 08:12:01,397 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 5%
+2020-12-13 08:12:02,399 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 5%
+2020-12-13 08:12:03,402 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 5%
+2020-12-13 08:12:04,404 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 5%
+2020-12-13 08:12:05,406 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 5%
+2020-12-13 08:12:06,409 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 6%
+2020-12-13 08:12:07,411 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 7%
+2020-12-13 08:12:09,416 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 8%
+2020-12-13 08:12:11,420 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 9%
+2020-12-13 08:12:13,425 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 10%
+2020-12-13 08:12:14,427 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 10%
+2020-12-13 08:12:15,430 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 10%
+2020-12-13 08:12:17,435 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 10%
+2020-12-13 08:12:18,437 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2020-12-13 08:12:19,439 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 10%
+2020-12-13 08:12:20,442 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 10%
+2020-12-13 08:12:21,444 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 11%
+2020-12-13 08:12:23,448 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 11%
+2020-12-13 08:12:26,454 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 11%
+2020-12-13 08:12:27,459 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 11%
+2020-12-13 08:12:28,461 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 12%
+2020-12-13 08:12:29,464 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 12%
+2020-12-13 08:12:30,466 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 12%
+2020-12-13 08:12:33,472 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 13%
+2020-12-13 08:12:35,475 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 13%
+2020-12-13 08:12:38,482 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 13%
+2020-12-13 08:12:39,485 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 13%
+2020-12-13 08:12:40,487 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 13%
+2020-12-13 08:12:41,489 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 14%
+2020-12-13 08:12:43,494 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 14%
+2020-12-13 08:12:46,500 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 15%
+2020-12-13 08:12:48,504 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 15%
+2020-12-13 08:12:49,506 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2020-12-13 08:12:50,509 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 46%
+2020-12-13 08:12:51,511 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2020-12-13 08:12:54,517 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2020-12-13 08:12:56,521 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:12:56,524 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0003 completed successfully
+2020-12-13 08:12:56,546 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 57
+	File System Counters
+		FILE: Number of bytes read=1032286
+		FILE: Number of bytes written=28531091
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=16046
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=142
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=288170
+		S3: Number of bytes written=55552
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Killed reduce tasks=1
+		Launched map tasks=142
+		Launched reduce tasks=13
+		Other local map tasks=142
+		Total time spent by all maps in occupied slots (ms)=130538592
+		Total time spent by all reduces in occupied slots (ms)=86477376
+		Total time spent by all map tasks (ms)=1359777
+		Total time spent by all reduce tasks (ms)=450403
+		Total vcore-milliseconds taken by all map tasks=1359777
+		Total vcore-milliseconds taken by all reduce tasks=450403
+		Total megabyte-milliseconds taken by all map tasks=4177234944
+		Total megabyte-milliseconds taken by all reduce tasks=2767276032
+	Map-Reduce Framework
+		Map input records=142
+		Map output records=96339
+		Map output bytes=2531982
+		Map output materialized bytes=1300337
+		Input split bytes=16046
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=142
+		Reduce shuffle bytes=1300337
+		Reduce input records=96339
+		Reduce output records=142
+		Spilled Records=192678
+		Shuffled Maps =1846
+		Failed Shuffles=0
+		Merged Map outputs=1846
+		GC time elapsed (ms)=43061
+		CPU time spent (ms)=130820
+		Physical memory (bytes) snapshot=93602455552
+		Virtual memory (bytes) snapshot=753533722624
+		Total committed heap usage (bytes)=93826056192
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	allpairshortestpath.AllPairShortestPathRunner$AllPairCounter
+		ITERATION=939
+	File Input Format Counters 
+		Bytes Read=288170
+	File Output Format Counters 
+		Bytes Written=55552
+2020-12-13 08:12:56,549 INFO allpairshortestpath.AllPairShortestPathRunner (main): iterCount 939
+2020-12-13 08:12:56,551 INFO allpairshortestpath.AllPairShortestPathRunner (main): Iteration: 2
+2020-12-13 08:12:56,551 INFO allpairshortestpath.AllPairShortestPathRunner (main): ------------------------------------------------------------------------------------------
+2020-12-13 08:12:56,590 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:12:56,748 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 13
+2020-12-13 08:12:56,767 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00000' for reading
+2020-12-13 08:12:56,837 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00001' for reading
+2020-12-13 08:12:56,901 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00002' for reading
+2020-12-13 08:12:56,981 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00003' for reading
+2020-12-13 08:12:57,044 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00004' for reading
+2020-12-13 08:12:57,102 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00005' for reading
+2020-12-13 08:12:57,140 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00006' for reading
+2020-12-13 08:12:57,200 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00007' for reading
+2020-12-13 08:12:57,256 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00008' for reading
+2020-12-13 08:12:57,313 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00009' for reading
+2020-12-13 08:12:57,351 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00010' for reading
+2020-12-13 08:12:57,410 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00011' for reading
+2020-12-13 08:12:57,444 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder2/part-r-00012' for reading
+2020-12-13 08:12:57,496 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:142
+2020-12-13 08:12:57,514 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0004
+2020-12-13 08:12:57,728 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0004
+2020-12-13 08:12:57,730 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0004/
+2020-12-13 08:12:57,730 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0004
+2020-12-13 08:13:04,780 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0004 running in uber mode : false
+2020-12-13 08:13:04,780 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:13:12,820 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2020-12-13 08:13:15,831 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2020-12-13 08:13:17,841 INFO org.apache.hadoop.mapreduce.Job (main):  map 8% reduce 0%
+2020-12-13 08:13:18,859 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2020-12-13 08:13:19,863 INFO org.apache.hadoop.mapreduce.Job (main):  map 13% reduce 0%
+2020-12-13 08:13:20,868 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2020-12-13 08:13:25,886 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2020-12-13 08:13:26,890 INFO org.apache.hadoop.mapreduce.Job (main):  map 24% reduce 0%
+2020-12-13 08:13:27,893 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2020-12-13 08:13:28,896 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2020-12-13 08:13:29,899 INFO org.apache.hadoop.mapreduce.Job (main):  map 31% reduce 0%
+2020-12-13 08:13:30,902 INFO org.apache.hadoop.mapreduce.Job (main):  map 33% reduce 0%
+2020-12-13 08:13:31,905 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-12-13 08:13:32,908 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-12-13 08:13:33,914 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2020-12-13 08:13:35,919 INFO org.apache.hadoop.mapreduce.Job (main):  map 38% reduce 0%
+2020-12-13 08:13:36,921 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2020-12-13 08:13:37,928 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 1%
+2020-12-13 08:13:38,930 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 1%
+2020-12-13 08:13:40,935 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 1%
+2020-12-13 08:13:41,938 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 2%
+2020-12-13 08:13:42,940 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 3%
+2020-12-13 08:13:43,943 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 3%
+2020-12-13 08:13:44,945 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 4%
+2020-12-13 08:13:45,947 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 4%
+2020-12-13 08:13:47,952 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 4%
+2020-12-13 08:13:49,956 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 4%
+2020-12-13 08:13:50,959 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 6%
+2020-12-13 08:13:51,961 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 6%
+2020-12-13 08:13:52,963 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 6%
+2020-12-13 08:13:53,965 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 6%
+2020-12-13 08:13:54,968 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 7%
+2020-12-13 08:13:55,970 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 7%
+2020-12-13 08:13:56,972 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 8%
+2020-12-13 08:13:58,976 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 8%
+2020-12-13 08:13:59,979 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 8%
+2020-12-13 08:14:00,981 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 8%
+2020-12-13 08:14:02,985 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 10%
+2020-12-13 08:14:03,987 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 10%
+2020-12-13 08:14:05,992 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2020-12-13 08:14:06,994 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 10%
+2020-12-13 08:14:07,998 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 11%
+2020-12-13 08:14:10,002 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 11%
+2020-12-13 08:14:13,008 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 11%
+2020-12-13 08:14:14,010 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 12%
+2020-12-13 08:14:15,012 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 12%
+2020-12-13 08:14:16,014 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 12%
+2020-12-13 08:14:18,019 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 12%
+2020-12-13 08:14:19,021 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 12%
+2020-12-13 08:14:21,026 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 13%
+2020-12-13 08:14:22,028 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 13%
+2020-12-13 08:14:23,030 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 13%
+2020-12-13 08:14:24,032 INFO org.apache.hadoop.mapreduce.Job (main):  map 88% reduce 13%
+2020-12-13 08:14:27,038 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 14%
+2020-12-13 08:14:28,040 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 14%
+2020-12-13 08:14:29,043 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 14%
+2020-12-13 08:14:30,045 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 14%
+2020-12-13 08:14:31,047 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 14%
+2020-12-13 08:14:33,052 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 14%
+2020-12-13 08:14:35,056 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 14%
+2020-12-13 08:14:36,058 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2020-12-13 08:14:37,061 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 42%
+2020-12-13 08:14:38,063 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 62%
+2020-12-13 08:14:39,065 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2020-12-13 08:14:40,067 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2020-12-13 08:14:41,070 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2020-12-13 08:14:42,072 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2020-12-13 08:14:43,074 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:14:43,077 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0004 completed successfully
+2020-12-13 08:14:43,098 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 56
+	File System Counters
+		FILE: Number of bytes read=1355248
+		FILE: Number of bytes written=29221999
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=16046
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=142
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=343994
+		S3: Number of bytes written=55697
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=142
+		Launched reduce tasks=13
+		Other local map tasks=142
+		Total time spent by all maps in occupied slots (ms)=124723776
+		Total time spent by all reduces in occupied slots (ms)=80410176
+		Total time spent by all map tasks (ms)=1299206
+		Total time spent by all reduce tasks (ms)=418803
+		Total vcore-milliseconds taken by all map tasks=1299206
+		Total vcore-milliseconds taken by all reduce tasks=418803
+		Total megabyte-milliseconds taken by all map tasks=3991160832
+		Total megabyte-milliseconds taken by all reduce tasks=2573125632
+	Map-Reduce Framework
+		Map input records=142
+		Map output records=122319
+		Map output bytes=3240486
+		Map output materialized bytes=1668283
+		Input split bytes=16046
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=142
+		Reduce shuffle bytes=1668283
+		Reduce input records=122319
+		Reduce output records=142
+		Spilled Records=244638
+		Shuffled Maps =1846
+		Failed Shuffles=0
+		Merged Map outputs=1846
+		GC time elapsed (ms)=43126
+		CPU time spent (ms)=134510
+		Physical memory (bytes) snapshot=94180511744
+		Virtual memory (bytes) snapshot=753668268032
+		Total committed heap usage (bytes)=94333566976
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	allpairshortestpath.AllPairShortestPathRunner$AllPairCounter
+		ITERATION=378
+	File Input Format Counters 
+		Bytes Read=343994
+	File Output Format Counters 
+		Bytes Written=55697
+2020-12-13 08:14:43,101 INFO allpairshortestpath.AllPairShortestPathRunner (main): iterCount 378
+2020-12-13 08:14:43,103 INFO allpairshortestpath.AllPairShortestPathRunner (main): Iteration: 3
+2020-12-13 08:14:43,103 INFO allpairshortestpath.AllPairShortestPathRunner (main): ------------------------------------------------------------------------------------------
+2020-12-13 08:14:43,137 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:14:43,390 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 13
+2020-12-13 08:14:43,406 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00000' for reading
+2020-12-13 08:14:43,473 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00001' for reading
+2020-12-13 08:14:43,531 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00002' for reading
+2020-12-13 08:14:43,590 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00003' for reading
+2020-12-13 08:14:43,650 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00004' for reading
+2020-12-13 08:14:43,709 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00005' for reading
+2020-12-13 08:14:43,765 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00006' for reading
+2020-12-13 08:14:43,824 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00007' for reading
+2020-12-13 08:14:43,866 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00008' for reading
+2020-12-13 08:14:43,951 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00009' for reading
+2020-12-13 08:14:43,991 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00010' for reading
+2020-12-13 08:14:44,049 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00011' for reading
+2020-12-13 08:14:44,105 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder3/part-r-00012' for reading
+2020-12-13 08:14:44,162 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:142
+2020-12-13 08:14:44,186 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0005
+2020-12-13 08:14:44,396 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0005
+2020-12-13 08:14:44,398 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0005/
+2020-12-13 08:14:44,398 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0005
+2020-12-13 08:14:51,449 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0005 running in uber mode : false
+2020-12-13 08:14:51,449 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:14:59,484 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2020-12-13 08:15:01,493 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2020-12-13 08:15:02,497 INFO org.apache.hadoop.mapreduce.Job (main):  map 5% reduce 0%
+2020-12-13 08:15:04,504 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2020-12-13 08:15:05,515 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2020-12-13 08:15:06,518 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2020-12-13 08:15:07,525 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2020-12-13 08:15:08,533 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2020-12-13 08:15:12,544 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2020-12-13 08:15:13,547 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2020-12-13 08:15:14,550 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2020-12-13 08:15:15,554 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2020-12-13 08:15:16,558 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2020-12-13 08:15:17,561 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-12-13 08:15:18,564 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-12-13 08:15:19,569 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2020-12-13 08:15:21,575 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2020-12-13 08:15:23,584 INFO org.apache.hadoop.mapreduce.Job (main):  map 41% reduce 0%
+2020-12-13 08:15:24,587 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 1%
+2020-12-13 08:15:25,591 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 1%
+2020-12-13 08:15:27,597 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 1%
+2020-12-13 08:15:28,600 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 1%
+2020-12-13 08:15:29,602 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 2%
+2020-12-13 08:15:30,605 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 3%
+2020-12-13 08:15:32,610 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 3%
+2020-12-13 08:15:33,612 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 3%
+2020-12-13 08:15:34,615 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 4%
+2020-12-13 08:15:35,617 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 4%
+2020-12-13 08:15:36,620 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 6%
+2020-12-13 08:15:37,622 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 6%
+2020-12-13 08:15:38,625 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 6%
+2020-12-13 08:15:39,628 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 6%
+2020-12-13 08:15:40,633 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 7%
+2020-12-13 08:15:42,637 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 8%
+2020-12-13 08:15:46,652 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 8%
+2020-12-13 08:15:47,655 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 8%
+2020-12-13 08:15:48,658 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 8%
+2020-12-13 08:15:49,660 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 10%
+2020-12-13 08:15:50,662 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 10%
+2020-12-13 08:15:51,664 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2020-12-13 08:15:52,667 INFO org.apache.hadoop.mapreduce.Job (main):  map 72% reduce 10%
+2020-12-13 08:15:53,672 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 11%
+2020-12-13 08:15:56,689 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 11%
+2020-12-13 08:15:57,692 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 11%
+2020-12-13 08:15:59,696 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 11%
+2020-12-13 08:16:00,699 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 12%
+2020-12-13 08:16:01,701 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 12%
+2020-12-13 08:16:02,703 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 12%
+2020-12-13 08:16:03,705 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 12%
+2020-12-13 08:16:04,707 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 12%
+2020-12-13 08:16:05,710 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 12%
+2020-12-13 08:16:06,712 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 13%
+2020-12-13 08:16:09,725 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 13%
+2020-12-13 08:16:10,728 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 13%
+2020-12-13 08:16:11,730 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 13%
+2020-12-13 08:16:12,733 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 13%
+2020-12-13 08:16:13,736 INFO org.apache.hadoop.mapreduce.Job (main):  map 91% reduce 14%
+2020-12-13 08:16:14,739 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 14%
+2020-12-13 08:16:16,743 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 14%
+2020-12-13 08:16:17,746 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 14%
+2020-12-13 08:16:18,748 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 14%
+2020-12-13 08:16:19,750 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 15%
+2020-12-13 08:16:20,753 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 15%
+2020-12-13 08:16:21,756 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 15%
+2020-12-13 08:16:22,758 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 36%
+2020-12-13 08:16:23,760 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2020-12-13 08:16:25,765 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2020-12-13 08:16:26,767 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2020-12-13 08:16:28,771 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:16:28,774 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0005 completed successfully
+2020-12-13 08:16:28,796 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 56
+	File System Counters
+		FILE: Number of bytes read=1365280
+		FILE: Number of bytes written=29246768
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=16046
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=142
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=343539
+		S3: Number of bytes written=55827
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=142
+		Launched reduce tasks=13
+		Other local map tasks=142
+		Total time spent by all maps in occupied slots (ms)=123393888
+		Total time spent by all reduces in occupied slots (ms)=79214208
+		Total time spent by all map tasks (ms)=1285353
+		Total time spent by all reduce tasks (ms)=412574
+		Total vcore-milliseconds taken by all map tasks=1285353
+		Total vcore-milliseconds taken by all reduce tasks=412574
+		Total megabyte-milliseconds taken by all map tasks=3948604416
+		Total megabyte-milliseconds taken by all reduce tasks=2534854656
+	Map-Reduce Framework
+		Map input records=142
+		Map output records=123549
+		Map output bytes=3276156
+		Map output materialized bytes=1683020
+		Input split bytes=16046
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=142
+		Reduce shuffle bytes=1683020
+		Reduce input records=123549
+		Reduce output records=142
+		Spilled Records=247098
+		Shuffled Maps =1846
+		Failed Shuffles=0
+		Merged Map outputs=1846
+		GC time elapsed (ms)=44148
+		CPU time spent (ms)=132560
+		Physical memory (bytes) snapshot=93792088064
+		Virtual memory (bytes) snapshot=753752633344
+		Total committed heap usage (bytes)=93980196864
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	allpairshortestpath.AllPairShortestPathRunner$AllPairCounter
+		ITERATION=24
+	File Input Format Counters 
+		Bytes Read=343539
+	File Output Format Counters 
+		Bytes Written=55827
+2020-12-13 08:16:28,799 INFO allpairshortestpath.AllPairShortestPathRunner (main): iterCount 24
+2020-12-13 08:16:28,801 INFO allpairshortestpath.AllPairShortestPathRunner (main): Iteration: 4
+2020-12-13 08:16:28,801 INFO allpairshortestpath.AllPairShortestPathRunner (main): ------------------------------------------------------------------------------------------
+2020-12-13 08:16:28,868 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:16:29,069 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 13
+2020-12-13 08:16:29,084 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00000' for reading
+2020-12-13 08:16:29,137 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00001' for reading
+2020-12-13 08:16:29,193 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00002' for reading
+2020-12-13 08:16:29,287 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00003' for reading
+2020-12-13 08:16:29,346 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00004' for reading
+2020-12-13 08:16:29,396 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00005' for reading
+2020-12-13 08:16:29,451 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00006' for reading
+2020-12-13 08:16:29,503 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00007' for reading
+2020-12-13 08:16:29,552 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00008' for reading
+2020-12-13 08:16:29,598 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00009' for reading
+2020-12-13 08:16:29,678 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00010' for reading
+2020-12-13 08:16:29,712 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00011' for reading
+2020-12-13 08:16:29,751 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder4/part-r-00012' for reading
+2020-12-13 08:16:29,802 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:142
+2020-12-13 08:16:29,821 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0006
+2020-12-13 08:16:29,833 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0006
+2020-12-13 08:16:29,836 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0006/
+2020-12-13 08:16:29,836 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0006
+2020-12-13 08:16:36,885 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0006 running in uber mode : false
+2020-12-13 08:16:36,885 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:16:45,945 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2020-12-13 08:16:46,949 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2020-12-13 08:16:47,957 INFO org.apache.hadoop.mapreduce.Job (main):  map 4% reduce 0%
+2020-12-13 08:16:48,962 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2020-12-13 08:16:49,966 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2020-12-13 08:16:50,969 INFO org.apache.hadoop.mapreduce.Job (main):  map 9% reduce 0%
+2020-12-13 08:16:51,972 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2020-12-13 08:16:52,975 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2020-12-13 08:16:53,979 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2020-12-13 08:16:54,982 INFO org.apache.hadoop.mapreduce.Job (main):  map 19% reduce 0%
+2020-12-13 08:16:55,984 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2020-12-13 08:16:57,989 INFO org.apache.hadoop.mapreduce.Job (main):  map 21% reduce 0%
+2020-12-13 08:16:58,992 INFO org.apache.hadoop.mapreduce.Job (main):  map 22% reduce 0%
+2020-12-13 08:16:59,996 INFO org.apache.hadoop.mapreduce.Job (main):  map 23% reduce 0%
+2020-12-13 08:17:00,998 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2020-12-13 08:17:02,001 INFO org.apache.hadoop.mapreduce.Job (main):  map 27% reduce 0%
+2020-12-13 08:17:04,005 INFO org.apache.hadoop.mapreduce.Job (main):  map 29% reduce 0%
+2020-12-13 08:17:05,008 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-12-13 08:17:06,010 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2020-12-13 08:17:09,017 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 0%
+2020-12-13 08:17:10,019 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 1%
+2020-12-13 08:17:11,022 INFO org.apache.hadoop.mapreduce.Job (main):  map 40% reduce 2%
+2020-12-13 08:17:12,024 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 2%
+2020-12-13 08:17:14,028 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 2%
+2020-12-13 08:17:16,033 INFO org.apache.hadoop.mapreduce.Job (main):  map 46% reduce 2%
+2020-12-13 08:17:17,035 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 2%
+2020-12-13 08:17:20,041 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 2%
+2020-12-13 08:17:21,043 INFO org.apache.hadoop.mapreduce.Job (main):  map 53% reduce 4%
+2020-12-13 08:17:22,045 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 4%
+2020-12-13 08:17:23,047 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 4%
+2020-12-13 08:17:25,051 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 4%
+2020-12-13 08:17:26,053 INFO org.apache.hadoop.mapreduce.Job (main):  map 57% reduce 6%
+2020-12-13 08:17:27,055 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 7%
+2020-12-13 08:17:28,058 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 7%
+2020-12-13 08:17:29,060 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 7%
+2020-12-13 08:17:30,062 INFO org.apache.hadoop.mapreduce.Job (main):  map 62% reduce 7%
+2020-12-13 08:17:31,065 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 7%
+2020-12-13 08:17:32,066 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 8%
+2020-12-13 08:17:34,070 INFO org.apache.hadoop.mapreduce.Job (main):  map 67% reduce 8%
+2020-12-13 08:17:35,072 INFO org.apache.hadoop.mapreduce.Job (main):  map 69% reduce 8%
+2020-12-13 08:17:36,074 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 10%
+2020-12-13 08:17:37,076 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 10%
+2020-12-13 08:17:38,079 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 10%
+2020-12-13 08:17:39,080 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 11%
+2020-12-13 08:17:41,085 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 11%
+2020-12-13 08:17:43,089 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 11%
+2020-12-13 08:17:44,091 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 11%
+2020-12-13 08:17:45,092 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 12%
+2020-12-13 08:17:48,098 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 12%
+2020-12-13 08:17:49,100 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 12%
+2020-12-13 08:17:50,102 INFO org.apache.hadoop.mapreduce.Job (main):  map 86% reduce 12%
+2020-12-13 08:17:51,104 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 13%
+2020-12-13 08:17:54,110 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 13%
+2020-12-13 08:17:55,112 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 13%
+2020-12-13 08:17:56,114 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 13%
+2020-12-13 08:17:57,119 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 14%
+2020-12-13 08:17:58,121 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 14%
+2020-12-13 08:17:59,123 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 14%
+2020-12-13 08:18:00,124 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 14%
+2020-12-13 08:18:02,132 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 15%
+2020-12-13 08:18:03,134 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2020-12-13 08:18:04,136 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 49%
+2020-12-13 08:18:05,138 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2020-12-13 08:18:06,140 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 92%
+2020-12-13 08:18:09,145 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:18:09,148 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0006 completed successfully
+2020-12-13 08:18:09,169 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 56
+	File System Counters
+		FILE: Number of bytes read=1366306
+		FILE: Number of bytes written=29248022
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=16046
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=142
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=344166
+		S3: Number of bytes written=55881
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=142
+		Launched reduce tasks=13
+		Other local map tasks=142
+		Total time spent by all maps in occupied slots (ms)=117251520
+		Total time spent by all reduces in occupied slots (ms)=73449024
+		Total time spent by all map tasks (ms)=1221370
+		Total time spent by all reduce tasks (ms)=382547
+		Total vcore-milliseconds taken by all map tasks=1221370
+		Total vcore-milliseconds taken by all reduce tasks=382547
+		Total megabyte-milliseconds taken by all map tasks=3752048640
+		Total megabyte-milliseconds taken by all reduce tasks=2350368768
+	Map-Reduce Framework
+		Map input records=142
+		Map output records=123549
+		Map output bytes=3281672
+		Map output materialized bytes=1683248
+		Input split bytes=16046
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=142
+		Reduce shuffle bytes=1683248
+		Reduce input records=123549
+		Reduce output records=142
+		Spilled Records=247098
+		Shuffled Maps =1846
+		Failed Shuffles=0
+		Merged Map outputs=1846
+		GC time elapsed (ms)=39617
+		CPU time spent (ms)=127340
+		Physical memory (bytes) snapshot=93831639040
+		Virtual memory (bytes) snapshot=753381433344
+		Total committed heap usage (bytes)=94089248768
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	allpairshortestpath.AllPairShortestPathRunner$AllPairCounter
+		ITERATION=6
+	File Input Format Counters 
+		Bytes Read=344166
+	File Output Format Counters 
+		Bytes Written=55881
+2020-12-13 08:18:09,172 INFO allpairshortestpath.AllPairShortestPathRunner (main): iterCount 6
+2020-12-13 08:18:09,174 INFO allpairshortestpath.AllPairShortestPathRunner (main): Iteration: 5
+2020-12-13 08:18:09,174 INFO allpairshortestpath.AllPairShortestPathRunner (main): ------------------------------------------------------------------------------------------
+2020-12-13 08:18:09,208 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-78-238.ec2.internal/172.31.78.238:8032
+2020-12-13 08:18:09,369 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 13
+2020-12-13 08:18:09,384 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00000' for reading
+2020-12-13 08:18:09,446 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00001' for reading
+2020-12-13 08:18:09,496 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00002' for reading
+2020-12-13 08:18:09,555 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00003' for reading
+2020-12-13 08:18:09,606 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00004' for reading
+2020-12-13 08:18:09,660 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00005' for reading
+2020-12-13 08:18:09,703 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00006' for reading
+2020-12-13 08:18:09,762 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00007' for reading
+2020-12-13 08:18:09,799 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00008' for reading
+2020-12-13 08:18:09,837 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00009' for reading
+2020-12-13 08:18:09,869 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00010' for reading
+2020-12-13 08:18:09,907 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00011' for reading
+2020-12-13 08:18:09,985 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://allpair-dept4-7m/input/folder5/part-r-00012' for reading
+2020-12-13 08:18:10,037 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:142
+2020-12-13 08:18:10,054 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1607846839833_0007
+2020-12-13 08:18:10,262 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1607846839833_0007
+2020-12-13 08:18:10,264 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-78-238.ec2.internal:20888/proxy/application_1607846839833_0007/
+2020-12-13 08:18:10,264 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1607846839833_0007
+2020-12-13 08:18:17,313 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0007 running in uber mode : false
+2020-12-13 08:18:17,313 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-12-13 08:18:25,348 INFO org.apache.hadoop.mapreduce.Job (main):  map 1% reduce 0%
+2020-12-13 08:18:27,354 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2020-12-13 08:18:28,357 INFO org.apache.hadoop.mapreduce.Job (main):  map 6% reduce 0%
+2020-12-13 08:18:29,359 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2020-12-13 08:18:30,364 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2020-12-13 08:18:31,369 INFO org.apache.hadoop.mapreduce.Job (main):  map 11% reduce 0%
+2020-12-13 08:18:32,372 INFO org.apache.hadoop.mapreduce.Job (main):  map 15% reduce 0%
+2020-12-13 08:18:33,376 INFO org.apache.hadoop.mapreduce.Job (main):  map 20% reduce 0%
+2020-12-13 08:18:37,390 INFO org.apache.hadoop.mapreduce.Job (main):  map 23% reduce 0%
+2020-12-13 08:18:38,397 INFO org.apache.hadoop.mapreduce.Job (main):  map 24% reduce 0%
+2020-12-13 08:18:39,405 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2020-12-13 08:18:40,408 INFO org.apache.hadoop.mapreduce.Job (main):  map 30% reduce 0%
+2020-12-13 08:18:41,412 INFO org.apache.hadoop.mapreduce.Job (main):  map 32% reduce 0%
+2020-12-13 08:18:44,424 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-12-13 08:18:45,427 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-12-13 08:18:47,432 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2020-12-13 08:18:48,434 INFO org.apache.hadoop.mapreduce.Job (main):  map 37% reduce 0%
+2020-12-13 08:18:49,436 INFO org.apache.hadoop.mapreduce.Job (main):  map 39% reduce 1%
+2020-12-13 08:18:50,439 INFO org.apache.hadoop.mapreduce.Job (main):  map 42% reduce 1%
+2020-12-13 08:18:51,441 INFO org.apache.hadoop.mapreduce.Job (main):  map 44% reduce 1%
+2020-12-13 08:18:52,444 INFO org.apache.hadoop.mapreduce.Job (main):  map 45% reduce 1%
+2020-12-13 08:18:53,446 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 2%
+2020-12-13 08:18:54,448 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 2%
+2020-12-13 08:18:55,450 INFO org.apache.hadoop.mapreduce.Job (main):  map 49% reduce 4%
+2020-12-13 08:18:56,452 INFO org.apache.hadoop.mapreduce.Job (main):  map 50% reduce 4%
+2020-12-13 08:18:57,455 INFO org.apache.hadoop.mapreduce.Job (main):  map 51% reduce 4%
+2020-12-13 08:18:59,459 INFO org.apache.hadoop.mapreduce.Job (main):  map 52% reduce 4%
+2020-12-13 08:19:00,462 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 4%
+2020-12-13 08:19:01,464 INFO org.apache.hadoop.mapreduce.Job (main):  map 55% reduce 5%
+2020-12-13 08:19:03,468 INFO org.apache.hadoop.mapreduce.Job (main):  map 56% reduce 5%
+2020-12-13 08:19:04,470 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 5%
+2020-12-13 08:19:05,472 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 6%
+2020-12-13 08:19:06,474 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 7%
+2020-12-13 08:19:07,476 INFO org.apache.hadoop.mapreduce.Job (main):  map 63% reduce 8%
+2020-12-13 08:19:08,478 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 8%
+2020-12-13 08:19:10,483 INFO org.apache.hadoop.mapreduce.Job (main):  map 65% reduce 8%
+2020-12-13 08:19:11,485 INFO org.apache.hadoop.mapreduce.Job (main):  map 66% reduce 8%
+2020-12-13 08:19:12,487 INFO org.apache.hadoop.mapreduce.Job (main):  map 68% reduce 10%
+2020-12-13 08:19:14,491 INFO org.apache.hadoop.mapreduce.Job (main):  map 70% reduce 10%
+2020-12-13 08:19:16,495 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 10%
+2020-12-13 08:19:17,497 INFO org.apache.hadoop.mapreduce.Job (main):  map 74% reduce 11%
+2020-12-13 08:19:18,499 INFO org.apache.hadoop.mapreduce.Job (main):  map 76% reduce 11%
+2020-12-13 08:19:19,501 INFO org.apache.hadoop.mapreduce.Job (main):  map 77% reduce 12%
+2020-12-13 08:19:21,505 INFO org.apache.hadoop.mapreduce.Job (main):  map 78% reduce 12%
+2020-12-13 08:19:22,508 INFO org.apache.hadoop.mapreduce.Job (main):  map 79% reduce 12%
+2020-12-13 08:19:24,511 INFO org.apache.hadoop.mapreduce.Job (main):  map 80% reduce 12%
+2020-12-13 08:19:25,514 INFO org.apache.hadoop.mapreduce.Job (main):  map 82% reduce 12%
+2020-12-13 08:19:26,516 INFO org.apache.hadoop.mapreduce.Job (main):  map 84% reduce 12%
+2020-12-13 08:19:28,520 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 12%
+2020-12-13 08:19:30,523 INFO org.apache.hadoop.mapreduce.Job (main):  map 89% reduce 13%
+2020-12-13 08:19:31,525 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 14%
+2020-12-13 08:19:32,527 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 14%
+2020-12-13 08:19:34,532 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 14%
+2020-12-13 08:19:35,533 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 14%
+2020-12-13 08:19:37,537 INFO org.apache.hadoop.mapreduce.Job (main):  map 96% reduce 14%
+2020-12-13 08:19:40,543 INFO org.apache.hadoop.mapreduce.Job (main):  map 99% reduce 14%
+2020-12-13 08:19:41,545 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 15%
+2020-12-13 08:19:42,547 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2020-12-13 08:19:43,549 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 69%
+2020-12-13 08:19:46,555 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 77%
+2020-12-13 08:19:47,557 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 85%
+2020-12-13 08:19:48,559 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-12-13 08:19:48,561 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1607846839833_0007 completed successfully
+2020-12-13 08:19:48,582 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=1366184
+		FILE: Number of bytes written=29248400
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=16046
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=142
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=344472
+		S3: Number of bytes written=55881
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Launched map tasks=142
+		Launched reduce tasks=13
+		Other local map tasks=142
+		Total time spent by all maps in occupied slots (ms)=113425824
+		Total time spent by all reduces in occupied slots (ms)=74920512
+		Total time spent by all map tasks (ms)=1181519
+		Total time spent by all reduce tasks (ms)=390211
+		Total vcore-milliseconds taken by all map tasks=1181519
+		Total vcore-milliseconds taken by all reduce tasks=390211
+		Total megabyte-milliseconds taken by all map tasks=3629626368
+		Total megabyte-milliseconds taken by all reduce tasks=2397456384
+	Map-Reduce Framework
+		Map input records=142
+		Map output records=123549
+		Map output bytes=3283020
+		Map output materialized bytes=1683748
+		Input split bytes=16046
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=142
+		Reduce shuffle bytes=1683748
+		Reduce input records=123549
+		Reduce output records=142
+		Spilled Records=247098
+		Shuffled Maps =1846
+		Failed Shuffles=0
+		Merged Map outputs=1846
+		GC time elapsed (ms)=38515
+		CPU time spent (ms)=139090
+		Physical memory (bytes) snapshot=93764673536
+		Virtual memory (bytes) snapshot=753705259008
+		Total committed heap usage (bytes)=94104453120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=344472
+	File Output Format Counters 
+		Bytes Written=55881
+2020-12-13 08:19:48,585 INFO allpairshortestpath.AllPairShortestPathRunner (main): iterCount 0
+2020-12-13 08:19:48,587 INFO allpairshortestpath.AllPairShortestPathRunner (main): Iteration: 6
+2020-12-13 08:19:48,587 INFO allpairshortestpath.AllPairShortestPathRunner (main): ------------------------------------------------------------------------------------------
